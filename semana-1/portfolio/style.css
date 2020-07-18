@@ -1,0 +1,237 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Reiniciando margens e paddings e definindo modelo de box */
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* ======== Header ======== */
+header {
+    background-color:  rgb(243, 166, 78);
+    height: 100vh;
+    color: rgb(82, 87, 85);
+    font-size: 20px;
+    
+}
+
+header h1 {
+    position: absolute; 
+    width: 1140px;
+    top: 46.5%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+
+}
+
+#nome {
+letter-spacing: 13px;
+}
+
+#formacao {
+    color: #eee;
+    font-style: italic;
+    font-size:37.5px;
+    position: absolute; 
+    width: 1140px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#tecnologia1 {
+    font-size: 50px;
+    position: absolute; 
+    top: 62%;
+    left: 9.5%;
+    transform: translate(-50%, -50%); 
+}
+
+
+#tecnologia1 {
+    font-size: 50px;
+    position: absolute; 
+    top: 62%;
+    left: 9%;
+    transform: translate(-50%, -50%); 
+}
+
+
+#tecnologia2 {
+    font-size: 50px;
+    position: absolute; 
+    top: 62%;
+    left: 16.5%;
+    transform: translate(-50%, -50%); 
+}
+
+
+#tecnologia3 {
+    font-size: 50px;
+    position: absolute; 
+    top: 62%;
+    left: 23.5%;
+    transform: translate(-50%, -50%); 
+}
+
+
+#tecnologia4 {
+    font-size: 50px;
+    position: absolute; 
+    top: 62%;
+    left: 30.5%;
+    transform: translate(-50%, -50%); 
+}
+
+#tecnologia5 {
+    font-size: 50px;
+    position: absolute; 
+    top: 62%;
+    left: 37%;
+    transform: translate(-50%, -50%); 
+}
+
+
+
+
+
+/* ======== Principal ======== */
+.sobre-mim {
+    background-image: url(mike.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-color:#fff;
+    text-align: center;
+
+    background-image: linear-gradient(rgba(177, 174, 174, 0.8),rgba(177, 174, 174, 0.85),rgba(228, 225, 225, 1)), url(mike.jpeg);
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+#slogan1 {
+    position: relative; 
+    font-size: 40px;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    color: rgb(100, 99, 97);
+    letter-spacing: 20px;
+}
+
+#slogan2 {
+    position: relative; 
+    font-size: 40px;
+    top: 40%;
+    left: 42%;
+    transform: translate(-50%, -50%); 
+    color: rgb(100, 99, 97);
+    letter-spacing: 20px;
+}
+
+#slogan3 {
+    position: relative; 
+    font-size: 40px;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%); 
+    color: rgb(100, 99, 97);
+    letter-spacing: 20px;
+}
+
+#slogan4 {
+    position: relative; 
+    font-size: 40px;
+    top: 15%;
+    left: 80%;
+    transform: translate(-50%, -50%); 
+    color: rgb(100, 99, 97);
+    letter-spacing: 20px;
+}
+
+#slogan5 {
+    position: relative; 
+    font-size: 40px;
+    top: 47%;
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    color: rgb(100, 99, 97);
+    letter-spacing: 20px;
+}
+
+
+img {
+    padding-top: 30px;
+    letter-spacing: 10px;
+}
+
+/* ======== Portfolio ======== */
+.portfolio {
+    background-color: rgb(21, 113, 233);
+    height: 100vh;
+}
+
+#titulo-portfolio {
+    color: #fff;
+    position: relative; 
+    font-size: 40px;
+    top: 17%; 
+    left: 10%;
+    letter-spacing: 20px;
+}
+
+/* ======== Footer ======== */
+footer {
+    background-color: rgb(244, 248, 248);
+    height: 100vh;
+}
+
+footer > p {
+    color: rgb(82, 85, 85);
+    position: relative; 
+    font-size: 40px;
+    top: 30%; 
+    left: 10%;
+    letter-spacing: 2px;
+}
+#titulo-footer {
+    color: rgb(233, 157, 15);
+    position: relative; 
+    font-size: 40px;
+    top: 17%; 
+    left: 10%;
+    letter-spacing: 20px;
+}
+
+
+/* 
+#social-media1 {
+    width: 20px;
+    position: static; 
+    top: 50%;
+    top: 95%;
+    left: 9.5%;
+    
+}
+#social-media2 {
+    width: 20px;
+    position: relative; 
+    top: 2%;
+    left: 20%;
+    transform: translate(-50%, -50%); 
+}
+#social-media3 {
+    width: 20px;
+    position: relative; 
+    top: 82%;
+    left: 30%;
+    transform: translate(-50%, -50%); 
+} */
