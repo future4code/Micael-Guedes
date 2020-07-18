@@ -1,0 +1,30 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.social-media {
+    width: 40px;
+}
+
+.menu {
+    text-align: center;
+}
+div > a {
+    
+    text-decoration: none;
+    border: solid 1px black;
+}
+
+.rodape {
+    padding-top: 20px;
+    background-color: rgb(119, 115, 115);
+}
+
+.corpo {
+    height: 45vh;
+}
+.corpo-estoque {
+    height: 55vh;
+}
+
