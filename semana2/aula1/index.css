@@ -140,6 +140,7 @@ td button {
     color: black;
 }
 
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
@@ -166,8 +167,20 @@ input {
     background-color: #635a3d
 }
 
+
 #lupa {
     background-color: #fff;
     width: 12px;
     height: 12px;
+}
+
+.button-comprar:hover {
+    background-color: aqua;
+}
+.button-comprar:active {
+    background-color: rgb(89, 172, 50);
+}
+
+.button-comprar:visited {
+    background-color: rgb(190, 115, 17);
 }
