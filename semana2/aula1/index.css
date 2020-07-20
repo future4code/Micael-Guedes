@@ -146,3 +146,9 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
+#lupa {
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+}
