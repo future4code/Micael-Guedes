@@ -121,7 +121,7 @@ table {
     width: 60%;
     margin: 0 auto;
     text-align: center;
--11}
+}
 
 .img-produtos {
 width: 40px;
@@ -161,6 +161,9 @@ input {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
 #back-button:hover {
