@@ -49,6 +49,7 @@ div img {
     display: block;
     margin: 0 auto;
     text-decoration: none;
+    margin-top: 40px;
 }
 
 .botao-amarelo:hover {
@@ -87,10 +88,17 @@ div img {
     height: 47.5vh;
 }
 
+#container-para-comprar {
+    padding-top: 100px;
+    
+}
+
 #container-para-comprar>p {
     color: #c44f00;
     padding: 100px 0;
-    font-size: 60px;
+    font-size: 45px;
+    padding-bottom: 70px;
+    
 }
 
 
