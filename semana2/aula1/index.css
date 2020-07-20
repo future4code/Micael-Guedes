@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h2 {
@@ -14,6 +15,7 @@ h2 {
     padding: 10px 5px 10px 5px;
     color: white;
     text-align: center;
+    height: 5vh;
 }
 
 input {
@@ -72,6 +74,8 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    padding-top: 50px;
+    height: 47.5vh;
 }
 
 #container-de-descricao>ol {
@@ -80,6 +84,7 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
+    height: 47.5vh;
 }
 
 #container-para-comprar>p {
