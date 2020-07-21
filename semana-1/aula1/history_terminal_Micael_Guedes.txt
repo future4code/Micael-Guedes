@@ -1,0 +1,150 @@
+1  history
+    2  ls
+    3  cd desktop
+    4  ls
+    5  cd Micael-Guedes/
+    6  ls
+    7  cd semana-1
+    8  ls
+    9  cd aula1
+   10  ls
+   11  cd assassinato-na-linha-de-comando/
+   12  ls
+   13  cat inicio
+   14  ls
+   15  cd misterio
+   16  ls
+   17  grep PISTA cena-do-crime 
+   18  ls
+   19  cd pessoas
+   20  grep Annabel pessoas
+   21  ls
+   22  cd automoveis
+   23  grep nova automoveis
+   24  grep annabel automoveis
+   25  cd assosiacoes
+   26  grep AAA associacoes/
+   27  cd associacoes/
+   28  ls
+   29  cd AAA
+   30  grep AAA Annabel
+   31  grep Annabel AAA
+   32  grep Zel AAA
+   33  greo Nova AAA
+   34  grep Annabel AAA
+   35  grep Annabel Biblioteca_da_Cidade 
+   36  grep Annabel Delta_SkyMiles 
+   37  grep Annabel Museu_da_História_do_Bash 
+   38  grep -A 10 Annabel Museu_da_História_do_Bash 
+   39  ls
+   40  cd ..
+   41  ls
+   42  cd automoveis 
+   43  grep -A 10 "L337" automoveis 
+   44  ls
+   45  cat Clube_de_Campo Academia_Fitness Costco | grep -c "Matt Waite"
+   46  cd associacoes 
+   47  ls
+   48  cat Clube_de_Campo Academia_Fitness Costco | grep -c "Matt Waite"
+   49  cat Biblioteca_da_Cidade AAA Delta_SkyMiles Museu_da_História_do_Bash | grep "Joe"
+   50  cat Biblioteca_da_Cidade AAA Delta_SkyMiles Museu_da_História_do_Bash | grep "Joe Germuska"
+   51  cat Biblioteca_da_Cidade AAA Delta_SkyMiles Museu_da_História_do_Bash | grep "Matt"
+   52  cat Biblioteca_da_Cidade AAA Delta_SkyMiles Museu_da_História_do_Bash | grep "Matt Waite"
+   53  cat Biblioteca_da_Cidade AAA Delta_SkyMiles Museu_da_História_do_Bash | grep "Jeremy Bowers"
+   54  cat Biblioteca_da_Cidade AAA Delta_SkyMiles Museu_da_História_do_Bash | grep "Jacqui Maher"
+   55  cat Biblioteca_da_Cidade AAA Delta_SkyMiles Museu_da_História_do_Bash | grep "Joe Germuskar"
+   56  cat Biblioteca_da_Cidade AAA Delta_SkyMiles Museu_da_História_do_Bash | grep "Joe Germuska"
+   57  s
+   58  ls
+   59  cd ..
+   60  la
+   61  ls
+   62  grep -A 10 "L337" automoveis 
+   63  ls
+   64  head -n 20 pessoas
+   65  ls
+   66  grep CLUE cena-do-crime 
+   67  grep "CLUE" cena-do-crime 
+   68  grep "PISTA" cena-do-crime 
+   69  ls
+   70  grep "Annabel" pessoas 
+   71  head -n 20 automoveis 
+   72  head -n 20 pessoas 
+   73  grep "Annabel" pessoas 
+   74  ls
+   75  cat ruas
+   76  cd ruas 
+   77  ls
+   78  cd Vila_Hart
+   79  cat Vila_Hart
+   80  sed -n 5p Vila_Hart
+   81  cat -n 5p Vila_Hart
+   82  cat -n Vila_Hart
+   83  cat -n Vila_Hart
+   84  cat -n Vila_Buckingham
+   85  cat -n Rua_Haley
+   86  head -n 40 ruas/Vila_Hart | tail -n 1
+   87  ls
+   88  head -n 40 ruas/Vila_Hart | tail -n 1
+   89  head -n 40 Vila_Hart | tail -n 1
+   90  head -n 179 Vila_Buckingham | tail -n 1
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd entrevistas
+   95  ls
+   96  cat entrevista-47246024
+   97  cat entrevista-699607
+   98  cat entrevista-871877
+   99  cd ..
+  100  ls
+  101  grep "L337" automoveis 
+  102  grep -A 10 "L337" automoveis 
+  103  head -n 20 automoveis
+  104  grep "Honda" automoveis
+  105  clear
+  106  ls
+  107  grep -A 5 "L337" automoveis 
+  108  grep -B 5 "L337" automoveis 
+  109  grep -C 5 "L337" automoveis 
+  110  LS
+  111  cd associacoes/
+  112  ls
+  113   cat Delta_SkyMiles | grep "Joe Germuska"
+  114   cat Delta_SkyMiles | grep "Jeremy Bowers"
+  115   cat Delta_SkyMiles | grep -B 5  "Jeremy Bowers"
+  116   cat Delta_SkyMiles | grep -A 5  "Jeremy Bowers"
+  117   cat Delta_SkyMiles | grep "Jacqui"
+  118   cat Delta_SkyMiles | grep "Jeremy Bowers"
+  119   cat AAA | grep "Jeremy Bowers"
+  120   cat Biblioteca_da_Cidade | grep "Jeremy Bowers"
+  121   cat Museu_da_História_do_Bash | grep "Jeremy Bowers"
+  122   cat AAA | grep "Jacqui Maher"
+  123   cat Biblioteca_da_Cidade | grep "Jacqui Maher"
+  124   cat Museu_da_História_do_Bash | grep "Jacqui Maher"
+  125   cat Museu_da_História_do_Bash | grep "Jacqui Maher"
+  126  clear
+  127  cd ..
+  128  cd associacoes/
+  129  ls
+  130  cat AAA
+  131  ls
+  132  cat Delta_SkyMiles 
+  133  cd ..
+  134  ls
+  135  cd pessoas
+  136  head -n 20 pessoas 
+  137  grep "Jeremy Bowers" pessoas 
+  138  grep "Jacqui Maher" pessoas 
+  139  ls
+  140  head -n 284 Travessa_Andover | tail -n 1
+  141  cd ruas
+  142  ls
+  143  head -n 284 Travessa_Dunstable | tail -n 1
+  144  head -n 224 Travessa_Andover | tail -n 1
+  145  cd ..
+  146  ls
+  147  cd entrevistas
+  148  ls
+  149  cat entrevista-9620713
+  150  cat entrevista-904020
