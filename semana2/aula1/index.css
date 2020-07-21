@@ -1,0 +1,198 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+    height: 5vh;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    background: black;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+.icone {
+    height: 15px;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+    padding-top: 50px;
+    height: 47.5vh;
+}
+
+#container-de-descricao>ol {
+    padding: 15px 550px;
+}
+
+.container >ol >li {
+    list-style-type: decimal;
+    color: white;
+}
+#container-para-comprar {
+    background-color: #e7eb90;
+    height: 47.5vh;
+}
+
+#container-para-comprar {
+    padding-top: 100px;
+    
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 45px;
+    padding-bottom: 70px;
+    
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-produtos {
+width: 40px;
+
+}
+
+#jeans {
+    background: #fff;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+input {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#back-button:hover {
+    background-color: #635a3d
+}
+
+
+#lupa {
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+}
+
+.button-comprar:hover {
+    background-color: aqua;
+}
+.button-comprar:active {
+    background-color: rgb(89, 172, 50);
+}
+
+.button-comprar:visited {
+    background-color: rgb(190, 115, 17);
+}
+
+#texto-comprar {
+    text-decoration: none;
+}
