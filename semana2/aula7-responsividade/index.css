@@ -1,0 +1,216 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#first-block {
+    background-color: red;
+}
+
+.block {
+    padding: 40px;
+    width: 10vw;
+}
+
+/* ========= CORES BLOCOS =========== */
+.blue-block {
+    background-color: blue;
+    
+}
+
+.yellow-block {
+    background-color: yellow;
+    
+}
+
+.green-block {
+    background-color: green;
+    
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+}
+
+.white-block {
+    background-color: white;
+}
+
+
+#first-block {
+    padding: 40px;
+    width: 100vw;
+    
+}
+
+#blocos-com-margem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+#main-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block {
+    margin: .3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloco1 {
+    width: 22%;
+}
+
+#bloco2 {
+    width: 22%;
+}
+
+#bloco3 {
+    width: 22%;
+}
+
+#bloco4 {
+    width: 22%;
+}
+
+#bloco5 {
+    width: 22%;
+}
+
+#bloco6 {
+    width: 22%;
+}
+
+#bloco7 {
+    width: 38.3%;
+    height: 35vh;
+}
+
+#bloco8 {
+    width: 38.3%;
+    height: 35vh;
+}
+
+#bloco9 {
+    width: 22%;
+}
+
+#bloco10 {
+    width: 22%;
+}
+
+#bloco11 {
+    width: 21.5%;
+}
+
+
+@media screen and (min-device-width: 792px) and (max-device-width: 800px) {
+    #bloco1 {
+        width: 38.5%;
+    }
+    
+    #bloco2 {
+        width: 39%;
+    }
+    
+    #bloco3 {
+        width: 88%;
+    }
+    
+    #bloco4 {
+        width: 38.5%;
+    }
+    
+    #bloco5 {
+        width: 39%;
+    }
+    
+    #bloco6 {
+        width: 88%;
+    }
+    
+    #bloco7 {
+        width: 38.3%;
+        height: 35vh;
+    }
+    
+    #bloco8 {
+        width: 38.3%;
+        height: 35vh;
+    }
+    
+    #bloco9 {
+        width: 38.5%;
+    }
+    
+    #bloco10 {
+        width: 39%;
+    }
+    
+    #bloco11 {
+        width: 88%;
+    }
+}
+
+@media screen and (min-device-width: 1px) and (max-device-width: 791px) {
+    #bloco1 {
+        width: 88%;
+    }
+    
+    #bloco2 {
+        width: 88%;
+    }
+    
+    #bloco3 {
+        width: 88%;
+    }
+    
+    #bloco4 {
+        width: 88%;
+    }
+    
+    #bloco5 {
+        width: 88%;
+    }
+    
+    #bloco6 {
+        width: 88%;
+    }
+    
+    #bloco7 {
+        width: 88%;
+        height: 3vh;
+        
+    }
+    
+    #bloco8 {
+        width: 88%;
+        height: 3vh;
+    }
+    
+    #bloco9 {
+        width: 88%;
+    }
+    
+    #bloco10 {
+        width: 88%;
+    }
+    
+    #bloco11 {
+        width: 88%;
+    }
+}
