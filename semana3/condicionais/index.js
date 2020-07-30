@@ -161,7 +161,40 @@ if (generoFilme === "FANTASIA" && precoFilme < 15) {
 
 
 
+DESAFIO 1
 
+Modifique o código do exercício 7 para, antes de imprimir a mensagem "Bom filme!", pergunte ao usuário, pelo `prompt` que snack ele vai comprar (pipoca, chocolate, doces, etc) e imprima no console as mensagens "Bom filme!" e "... com `[SNACK]`", trocando [SNACK] pelo que o usuário colocou no input.
+
+- Exemplo
+    Entradas: "fantasia" | "10"
+    Saída:
+
+    [prompt] Qual snack que você quer comprar?
+  
+    Entrada: "chocolate"
+
+    Saída:
+  
+    "Bom filme!"
+    "... com chocolate"
+    
+let generoFilme = prompt("Qual dos dois gêneros de filme você gostaria de assistir? Ação ou Fantasia?")
+
+generoFilme = generoFilme.toUpperCase()
+
+
+const precoFilme = prompt("Quanto você está disposto a gastar no filme? Escolha valores entre R$ 1 e R$ 30")
+
+let snack = prompt("Qual snack você quer comprar? pipoca, chocolate, doces, etc?")
+
+
+
+if (generoFilme === "FANTASIA" && precoFilme < 15) {
+  console.log("Bom Filme!")
+  console.log("...com " + snack)
+} else {
+  console.log("Escolha outro Filme! :(")
+} 
 
 
 
