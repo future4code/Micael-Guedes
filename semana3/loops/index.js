@@ -120,3 +120,4 @@ for (let i of arrayOriginal4) {
 
 console.log(`O maior número é ${numMax} e o menor númeero é ${numMin}`)
 
+// fim
