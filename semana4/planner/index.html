@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <script defer src="index.js"></script>
+    <script defer src="index.js" defer></script>
     <title>Planner</title>
 </head>
 <body>
@@ -24,24 +24,24 @@
             </select>
         </form>
 
-        <button id="criarTarefa" onclick="criarTarefa()">Criar tarefa</button>
+        <button id="button" onclick="addTarefa()">Criar tarefa</button>
         
     </header>
     <section>
-        <div class="semana">
+        <div class="semana" >
             <h3>Domingo</h3>
-            <div id="domingo"></div>
+            <div id="domingo" onclick="riscarTarefa()"></div>
         </div>
 
         <div class="semana">
             <h3>Segunda-feira</h3>
-            <div id="segunda"></div>
+            <div class="dia-semana" id="segunda"></div>
         </div>
 
         <div class="semana">
             <h3>Terça-feira</h3>
-            <div id="terca"></div>
-        </div>
+            <div class="dia-semana" id="terca"></div>
+        </div> 
     
         <div class="semana">
             <h3>Quarta-feira</h3>
